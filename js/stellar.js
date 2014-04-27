@@ -63,12 +63,6 @@
     <a href="#start-of-content" class="accessibility-aid js-skip-to-content">Skip to content</a>
     <div class="wrapper">
       
-      
-      
-      
-
-
-      
       <div class="header header-logged-out">
   <div class="container clearfix">
 

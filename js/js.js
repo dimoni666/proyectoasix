@@ -14,7 +14,7 @@ jQuery(document).ready(function ($) {
     $('.navigation li[data-slide="1"]').addClass('active');
     htmlbody.animate({
       scrollTop: $('.slide[data-slide="1"]').offset().top
-    })
+    });
     //Set up for waypoints navigation
     slide.waypoint(function (event, direction) {
         //cache the variable of the data-slide attribute associated with each slide

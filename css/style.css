@@ -76,13 +76,19 @@ html,body {
   background-color: #1b1b1b;
 }
 #slide4 {
-  background-image: url(../images/cpd.jpg);
+  background-image: url(../images/posit.jpg);
   background-repeat: no-repeat;
   background-position: center !important;
   -webkit-background-size: 100% 500px;
   -moz-background-size: 100% 500px;
   background-size: 100% 500px;
   background-color: #1b1b1b;
+}
+label {
+	display: block;
+	margin: 20px;
+	padding: 10px;
+	
 }
 
 .slide span {

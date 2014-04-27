@@ -84,6 +84,11 @@ html,body {
   background-size: 100% 500px;
   background-color: #1b1b1b;
 }
+form {
+	
+	margin-top: 20px;
+	
+}
 label {
 	display: block;
 	margin: 20px;

@@ -18,5 +18,5 @@ if ($query){
 	$message = "La consulta no ha podido realizarse. Intentelo de nuevo mas tarde.";
 }
 echo "<script type='text/javascript'>alert('$message');</script>";
-echo "<script type='text/javascript'>window.location.pathname='/index.html';</script>";
+echo "<script type='text/javascript'>window.location.pathname='/asix/index.html';</script>";
 ?>

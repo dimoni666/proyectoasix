@@ -10,7 +10,11 @@ mysql_select_db("asixdb",$conect) OR die ("no se ha podido conectar");
 
 $insert = "INSERT INTO consultas VALUE ('$nombre','$apellidos','$email','$consulta');";
 
-mysql_query($insert,$conect);
-
+$query = mysql_query($insert,$conect);
+if ($query){
+	alert("Su consulta ha sido enviada correctamente");
+}else {
+	alert ("La consulta no ha podido realizarse. Intentelo de nuevo mas tarde.");
+}
 
 ?>

@@ -13,10 +13,10 @@ $insert = "INSERT INTO consultas VALUE ('$nombre','$apellidos','$email','$consul
 $query = mysql_query($insert,$conect);
 if ($query){
 	$message = "Su consulta ha sido enviada correctamente";
-	echo "<script type='text/javascript'>alert('$message');</script>";
+	
 }else {
 	$message = "La consulta no ha podido realizarse. Intentelo de nuevo mas tarde.";
-	echo "<script type='text/javascript'>alert('$message');</script>";
 }
-
+echo "<script type='text/javascript'>alert('$message');</script>";
+echo "<script type="text/javascript">window.location.pathname='/index.html';</script>";
 ?>

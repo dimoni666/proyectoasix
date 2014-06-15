@@ -5,6 +5,8 @@ $apellidos = $_POST["apellidos"];
 $email = $_POST["email"];
 $consulta = $_POST["motivo"];
 
+setcookie("wn",$nombre,time()+86400);
+
 $conect = mysql_connect("localhost","asixuser","4s1xP4ssWd");
 mysql_select_db("asixdb",$conect) OR die ("no se ha podido conectar");
 

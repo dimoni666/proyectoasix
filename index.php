@@ -16,6 +16,13 @@
 </head>
 
 <body>
+	<?php 
+	if(isset($_COOKIE["wn"])){
+		$saludo = ", ".$_COOKIE["wn"];
+	}else{
+		$saludo = "";
+	}
+	?>
   <ul class="navigation">
     <li data-slide="1" style="box-shadow: 0 0 0 3px #1a1a1a;background-color: #1a1a1a;" ></li>
     <li data-slide="2" style="box-shadow: 0 0 0 3px #ffee00;background-color: #ffee00;"></li>
@@ -24,7 +31,7 @@
   </ul>
   <h1>Wizard Networks</h1>
   <div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0">
-    <span>Informatizamos su empresa</span>
+    <span>Informatizamos su empresa<?php echo $saludo; ?></span>
   </div>
   <div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0">
     <span>Desde la oficina...</span>
